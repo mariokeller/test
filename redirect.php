@@ -1,4 +1,5 @@
 <?php
+//github test
 include "php/config.php";
 $art_id = $_GET["id"];
 session_start();
