@@ -1,5 +1,7 @@
 <?php
 session_start();
+
+//github
 // get db connection
 include "php/config.php";
 include "php/functions.php";
