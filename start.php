@@ -2,6 +2,11 @@
 session_start();
 
 //github
+//
+//
+//
+//
+//
 // get db connection
 include "php/config.php";
 include "php/functions.php";
@@ -191,8 +196,8 @@ https://www.facebook.com/paperlyde</p>
 
                                     <form  enctype="multipart/form-data" action="login.php" method="post">
 
-                                        <input id="loginEMail" class="login-field" type="email" placeholder="Email-Adresse" style=" width:200px; height: 23px;" name="EMail" value="" required="" >
-                                        <input id="loginPassword" class="login-field" type="password" placeholder="Passwort" style="width:200px; height: 23px;" name="Password" value="" required="">
+                                        <input id="loginEMail" class="login-field" type="email" placeholder="Email-Adresse" style=" width:200px; height: 23px;" name="EMail" value="" required >
+                                        <input id="loginPassword" class="login-field" type="password" placeholder="Passwort" style="width:200px; height: 23px;" name="Password" value="" required>
                                         <input id="button_allgemein" type="submit" name="" value="Login"/>
 
                                     </form>
